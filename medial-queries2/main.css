@@ -5,7 +5,8 @@ body {
   margin: auto;
 }
 * {
-  border: 2px solid teal;
+  border: 2px groove red;
+  margin: 3px;
 }
 /* set first flex */
 .container {
@@ -49,8 +50,7 @@ main, footer {
 /* screen resizing */
 @media (min-width: 600px) {
   .container {
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
   }
   header {
     width: 100%;
