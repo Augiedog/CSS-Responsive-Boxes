@@ -1,3 +1,19 @@
 body {
-  background: peachpuff;
+  background: #35d67d;
+}
+* {
+  border: 2px groove red;
+}
+/* setting the flex contianers */
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.pack {
+  display: flex;
+  flex-wrap: 4;
+}
+/* setting container sizes */
+.a {
+  width: 90%;
 }
